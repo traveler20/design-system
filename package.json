@@ -1,25 +1,22 @@
 {
-  "name": "@bjankord/style-guide-boilerplate",
-  "version": "3.3.2",
-  "description": "A starting point for crafting living style guides.",
+  "name": "design-system-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "deploy": "gh-pages -d gh-pages",
-    "release:major": "npm test && npm version major -m \"Released version %s\" && npm publish --access=public && git push --follow-tags",
-    "release:minor": "npm test && npm version minor -m \"Released version %s\" && npm publish --access=public && git push --follow-tags",
-    "release:patch": "npm test && npm version patch -m \"Released version %s\" && npm publish --access=public && git push --follow-tags"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjankord/Style-Guide-Boilerplate.git"
+    "url": "git+https://github.com/traveler20/design-system.git"
   },
-  "author": "Brett Jankord",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bjankord/Style-Guide-Boilerplate/issues"
+    "url": "https://github.com/traveler20/design-system/issues"
   },
-  "homepage": "https://github.com/bjankord/Style-Guide-Boilerplate#readme",
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
+  "homepage": "https://github.com/traveler20/design-system#readme",
+  "dependencies": {
+    "@frctl/fractal": "^1.5.13"
   }
 }
